@@ -1,9 +1,10 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import Contacts from "./contacts/contacts";
 
-function App() {
-  return <h1>hello world</h1>;
+class App extends React.Component {
+  render() {
+    return <Contacts />;
+  }
 }
 
 export default App;

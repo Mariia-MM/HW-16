@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+.contact-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact {
+  font-size: 17px;
+  background-color: rgb(193, 236, 222);
+  border: dashed darkgray;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-name {
+  color: rgb(92, 3, 3);
+  opacity: 0.9;
+  font-size: 25px;
+  font-weight: 600;
+}
+.contact-phoneNumber {
+  color: rgb(72, 10, 131);
+  position: relative;
+  z-index: 1;
+  margin-top: auto;
+}
+.search-form {
+  border: solid rgb(15, 78, 78);
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 70px;
+  background-color: rgb(87, 175, 175);
+}
